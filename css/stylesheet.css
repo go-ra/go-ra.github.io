@@ -1,0 +1,81 @@
+html, body {
+    height: 100%;
+}
+
+body {
+  background: url("../res/background.jpg");
+  font-family: helvetica;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+li a.active {
+  background-color: blue;
+}
+
+.content {
+  background-color: rgba(50, 50, 50, 0.9);
+
+  position:relative;
+  padding:10px;
+  margin: 10px;
+
+  color: white;
+}
+
+.content .album {
+  background-color: red;
+  padding: 30px;
+  margin: 18px;
+  display: inline-block;
+}
+
+.content .album img {
+  margin: 10px;
+}
+
+.content .album .album_beschreibung {
+  text-align: center;
+
+}
+
+.content .person {
+  background-color: red;
+  display: inline-block;
+  padding: 20px;
+  margin: 10px;
+  
+  
+}
+
+.content .person img {
+  margin: 10px;
+}
+
+.content .person {
+  display: inline-block;
+
+}
